@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #001e4d;
+}
+
+.calculator-app {
+  width: 80%;
+  max-width: 600px;
+  padding: 30px;
+  border-radius: 8px;
+  background: #fff;
+  margin: 40px auto;
+}
+
+h1 {
+  font-size: 28px;
+  color: #001e4d;
+  font-weight: 500;
+  text-align: center;
+  border-bottom: 1px solid #333;
+  padding-bottom: 15px;
+}
+
+.quiz {
+  padding: 20px 0;
+}
+
+h2 {
+  font-size: 16px;
+  color: #001e4d;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.btn {
+    background: #fff;
+    color: #222;
+    font-weight: 400;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover:not([disabled]) {
+    background: #001e4d;
+    color:#fff
+}
+
+.btn:disabled {
+  cursor: no-drop;
+}
+
+
+#next-btn {
+    background: #001e4d;
+    color: #fff;
+    font-weight: 400;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px auto 0;
+    cursor: pointer;
+    display: none;
+}
+
+.correct {
+  background: #9aeabc;
+}
+
+.incorrect {
+  background: #ff9393;
+}
